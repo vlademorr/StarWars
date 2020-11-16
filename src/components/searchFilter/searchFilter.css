@@ -1,0 +1,26 @@
+.autocomplete_input{
+    border-radius: 10px;
+    border-color: #007bff;
+    outline: none;
+}
+
+.autocomplete_container {
+    margin-right: 25px;
+}
+
+.autocomplete_input {
+    height: 38px;
+    width: 210px;
+}
+
+.autocomplete_item {
+    font-size: 18px;
+}
+
+.autocomplete_menu {
+    position: absolute;
+    z-index: 100;
+    box-shadow: 1px 1px 10px grey;
+    max-height: 257px;
+    overflow-y: scroll;
+}

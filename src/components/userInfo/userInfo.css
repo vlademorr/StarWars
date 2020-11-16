@@ -1,0 +1,23 @@
+.user_info {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    color: #70b5ff;
+}
+
+.user_name{
+    color: black;
+    user-select: none;
+}
+
+.logout {
+    cursor: pointer;
+    text-align: end;
+    transition: linear 0.1s;
+}
+
+.logout:hover {
+    transition: linear 0.1s;
+    color: #248eff;
+}

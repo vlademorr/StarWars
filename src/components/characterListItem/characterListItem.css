@@ -1,0 +1,33 @@
+.character_container{
+    height: 240px;
+    border-style: solid;
+    border-radius: 4px;
+    border-color: darkgray;
+    transition: background-color linear 0.15s;
+}
+
+.character_container:hover{
+    transition: background-color linear 0.15s;
+    background-color: #d7d7d7;
+}
+
+.character_list_img{
+    display: flex;
+    width: 130px;
+    height: 130px;
+    margin: 10px auto;
+}
+.character_name{
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 0;
+}
+
+.like_image {
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin: 10px auto;
+    cursor: pointer;
+}

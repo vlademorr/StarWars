@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.characters_list{
+    display: flex;
+    justify-content: center;
+}
+
+.btn_load_more {
+    width: 31.5%;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.filter_container{
+    display: flex;
+    justify-content: center;
+}
+
+h4{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    margin: 15px 0;
+}

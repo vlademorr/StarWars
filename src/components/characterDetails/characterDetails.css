@@ -1,0 +1,62 @@
+.character_details_container{
+    text-align: center;
+
+}
+.character_front_details_img{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.character_details_name{
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.character_details{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 500px;
+}
+
+.p_character_details_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.p_character_details{
+    display: flex;
+    justify-content: center;
+}
+
+.films_vehicles{
+    text-align: center;
+}
+
+.p_homeworld{
+    align-self: center;
+}
+.p_first_character_details_left_side{
+    width: 50%;
+}
+
+.p_first_character_details_right_side{
+    width: 50%;
+}
+
+.p_second_character_details_left_side{
+    width: 50%;
+}
+
+.p_second_character_details_right_side{
+    max-width: 50%;
+}
+
+.bad_url{
+    display: flex;
+    justify-content: center;
+}
